@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Employee</title>
+  </head>
+  <body>
+    <h1>Employee Details</h1>
+    <p>Name: <%= employee.name %></p>
+    <p>Company: <%= employee.company %></p>
+    <p>Position: <%= employee.position %></p>
+    <form action="/submit" method="POST">
+      <button type="submit">Submit Random Employee</button>
+    </form>
+  </body>
+</html>
